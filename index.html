@@ -1,1 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    </style>
+</head>
+
+<body>
+
+    <div class="mainContainer">
+        <div class="background-container">
+            <img class="background" src="unsplash trees.jpg">
+            <div class="background-body">
+                <div class="logoContainer"><img class="logo" src="odin-lined.png">
+                    <p class="logoText">ODIN</p>
+                </div>
+            </div>
+            <div class="secondContainer">
+                <div class="secondContainerChild1">
+                    <p class="p1">This is not a real online service!</p>
+                    <p class="p2">You know you need something like this in your life to help you realize your deepest
+                        dreams.<br>
+                        Sign up
+                        <span style="font-style: italic;">now</span> to get started.
+                    </br>
+                    </p>
+                    <p class="p3">You <span style="font-style: italic;">know</span> you want to.</p>
+                </div>
+                <div class="secondContainerChild2">
+                    <h1>Let's Do this!</h1>
+
+                    <div class="formContainer">
+                        <form onsubmit="return verifyPassword()">
+                            <div class="row">
+                                <div class="column1">
+                                    <label>First Name</label>
+                                    <input type="text">
+                                </div>
+                                <div class="column2">
+                                    <label>Last Name</label>
+                                    <input type="text">
+                                </div>
+                            </div><div class="row">
+                                <div class="column1">
+                                    <label>Email</label>
+                                    <input type="text">
+                                </div>
+                                <div class="column2">
+                                    <label>Phone Number</label>
+                                    <input type="text">
+                                </div>
+                            </div><div class="row">
+                                <div class="column1">
+                                    <label>Password</label>
+                                    <input id="pass" type="password" value="">
+                                    <span id = "message" style="color:red"> </span>
+                                </div>
+                                <div class="column2">
+                                    <label>Confirm Password</label>
+                                    <input id="confirmPass" type="password" value="">
+                                </div>
+                                
+                            </div>
+                            <input type="submit" value="submit">
+                                    
+
+                        </form>
+
+                    </div>
+                </div>
+                
+                <p>Already have an account? <span style="font-weight: bolder;"><a href>Log in</a></span></p>
+            </div>
+
+        </div>
+<footer>Photo by&nbsp;<a class="footerLink" href = "https://unsplash.com/@jeremybishop">Jeremy Bishop</a>&nbsp;from&nbsp;<a class="footerLink" href="https://unsplash.com/">Unsplash</a></footer>
+</body>
+<script src="script.js"></script>
+</html>
